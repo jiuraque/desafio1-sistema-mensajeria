@@ -8,10 +8,28 @@ html {
     height: 100vh;
 }
 
-.hero {
+.container ul {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
+    flex-flow: column wrap;
+    width: 800px;
 }
 
+
+.img-perfiles {
+    width: 80px;
+    border-radius: 50%;
+}
+
+
+
+#hero-section {
+    display:flex;
+    flex-flow: column wrap;
+    align-items: center;
+    height: 90vh;
+    flex: 1;
+}
+
+.img-hero {
+    width: 400px;
+}
