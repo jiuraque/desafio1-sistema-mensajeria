@@ -4,9 +4,14 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100vh;
+}
+
 .hero {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
 }
+
